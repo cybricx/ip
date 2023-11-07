@@ -1,0 +1,22 @@
+<!-- place-orders.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Place Orders</h1>
+    <form id="placeOrderForm">
+        <label for="productToOrder">Select Product:</label>
+        <select id="productToOrder" required>
+            <option value="product1">Product 1</option>
+            <option value="product2">Product 2</option>
+            <!-- Add more product options here -->
+        </select>
+        <label for="orderQuantity">Quantity:</label>
+        <input type="number" id="orderQuantity" required>
+        <button id="placeOrderButton">Place Order</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

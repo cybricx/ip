@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px; /* Provide some space below the heading */
+}
+form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left; /* Align form elements to the left */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Slightly increase spacing between labels */
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 100%;
+    padding: 12px; /* Slightly increase padding for better input field appearance */
+    margin-bottom: 20px; /* Provide more spacing between input fields */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+.error-text {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px; /* Add space above error text */
+}

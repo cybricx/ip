@@ -1,0 +1,28 @@
+/* Styling for the button */
+.btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* #decorate
+{
+    color: black; 
+    font-style: comic_sans;
+    font-size: 25px;  
+}
+
+button
+{
+    color: black; 
+}
+
+#output
+{
+    color: cyan; 
+    font-size: 20px;
+    display: flex; 
+} */

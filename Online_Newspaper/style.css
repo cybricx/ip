@@ -1,0 +1,40 @@
+/* Apply a background color to the body */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #333;
+}
+
+.navbar a {
+    color: #fff !important;
+}
+
+/* Style the jumbotron */
+.jumbotron {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Style the button inside the jumbotron */
+.jumbotron .btn {
+    background-color: #fff;
+    color: #007bff;
+}
+
+/* Style the categories list */
+.list-group {
+    margin-top: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
